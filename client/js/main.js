@@ -1,8 +1,7 @@
-angular.module('myApp', [])
-	.controller('MyController', ['', function(){
+var app = angular.module('YourAppName', [])
+app.controller('YourControllerName', ['', function(){
 
-	}])
-	.config(['', function(){
-
+}]);
+app.config(['', function(){
 
 }]);
