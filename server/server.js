@@ -73,7 +73,7 @@ function requestHandler(req, res){
 	var reqURL = url.parse(req.url).pathname;
 	if(reqURL === '/'){
 		requestHTML(req, res);
-	} else if(reqURL === '/tweets'){
+	} else if(reqURL === '/api/tweets'){
 		if(req.method === 'GET'){
 			getMessages(req, res);
 		}
