@@ -1,0 +1,19 @@
+.background {
+    background-image: url('https://s-media-cache-ak0.pinimg.com/originals/6e/be/40/6ebe40b83e66ee5409cb4f8163367e27.jpg')
+}
+
+h1 {
+    color: ghostwhite;
+    text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px darkblue;
+}
+
+li {
+    color: ghostwhite;
+    text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px darkblue;
+}
+
+input[type="text"], textarea {
+
+  background-color : #8A0707; 
+  color: black;
+}
